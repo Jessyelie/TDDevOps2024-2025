@@ -1,0 +1,28 @@
+DEVOPS
+
+LAB1
+1. Intaller nginx sur votre système ubuntu
+2. Puis déployer une mini application front
+3. Ajouter le port forwading pour mysql 3306 pour guest et 3306 pour host 
+3. mysql server sur le même serveur
+4. Connecter vous sur le serveur mysql à partir de la machine via ssh
+
+LAB2
+1. Créer deux machines : web et db
+2. Dans web, vous aller y installer nodeJS puis démarrer un server sur port 8086 avec springboot. 
+  - Untiliser ce projet que vous allez déployer dans le serveur web : https://github.com/ngorseck/admin-app
+ - Vous devez interconnecter les deux serveur web et db
+ - L'application springboot sera déployée sur la machine web et la base de données sur db
+3. Dans db, vous allez y créer une base de données pour la sauvegarde des données qui seront envoyé par votre application springboot
+
+LAB3
+Vous allez déployer l'application stock-ms dans minikube en mode ligne de commande dans un namespace nommé jee
+Vous allez déployer l'application stock-ms dans minikube en mode déclarative (fichier yaml) dans un  namespace   nommé devops
+
+LAB4
+Vous allez utiliser le document partagé dans classroom pour mettre en place une pipeline CICD de déploiement avec heml
+
+LAB5
+
+Mettez en place la stack ELK
+Ressources : https://gitlab.com/observabilite1/elk
